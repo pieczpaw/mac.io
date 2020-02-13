@@ -23,3 +23,4 @@ Script macquery.py is checking vendor or mac address is locatet at /mac.io
 
 ## Security
 Regarding security we could run container wihtout root privileges + configure SElinux (in case of RedHat, CentOS)
+Container image can be also signed. Are the running container should be up to date.
