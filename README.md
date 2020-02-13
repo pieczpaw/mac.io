@@ -18,7 +18,8 @@ Script macquery.py is checking vendor or mac address is locatet at /mac.io
 
 
 ## Usage
-   python3 /mac.io/macquery.py 00:50:56...
+
+    python3 /mac.io/macquery.py 00:50:56...
 
 ## Security
 Regarding security we could run container wihtout root privileges + configure SElinux (in case of RedHat, CentOS)
