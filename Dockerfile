@@ -4,4 +4,3 @@ LABEL version="1.0"
 LABEL description="Pawel Pieczkowski PoC"
 WORKDIR /mac.io
 CMD /bin/bash
-
