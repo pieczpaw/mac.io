@@ -3,7 +3,7 @@ This is PoC for higher need
 
 ## Index
 - [Dockerfiles](#Dockerfiles)
-- [Script](#Script macquery.py)
+- [Script](#Script)
 - [Usage](#Usage)
 
 
@@ -13,10 +13,12 @@ I have create two separate docker files.
  - Second - Dockerfile_alternative is using default CentOS 8 docker container and all stuff is installed during container deployment.
 
 
-## Script macquery.py
-Script which is checking vendor or mac address is locatet at /mac.io
+## Script
+Script macquery.py is checking vendor or mac address is locatet at /mac.io
 
 
 ## Usage
-python3 /mac.io/macquery.py 00:50:56...
+   python3 /mac.io/macquery.py 00:50:56...
 
+## Security
+Regarding security we could run container wihtout root privileges + configure SElinux (in case of RedHat, CentOS)
