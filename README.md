@@ -11,9 +11,9 @@ This is PoC for higher need
 
 
 ## Dockerfiles
-I have create two separate docker files. 
- - First one Dockerfile, download image prepared by me, where everything is installed.
- - Second - Dockerfile_alternative is using default CentOS 8 docker container and all stuff is installed during container deployment.
+I have create two separate docker files in two different branches (master and alternative). 
+ - First (master) one Dockerfile, download image prepared by me, where everything is installed.
+ - Second (alternative) Dockerfile is using default CentOS 8 docker container and all stuff is installed during container deployment.
 
 
 ## Script
