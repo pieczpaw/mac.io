@@ -1,3 +1,6 @@
+# Branch
+There are two branches, default is "master", but there is also branch called "alternative" which has different Docker file.
+
 # mac.io
 This is PoC for higher need
 
